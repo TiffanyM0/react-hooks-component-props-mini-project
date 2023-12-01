@@ -4,3 +4,10 @@ module.exports = {
     ["@babel/preset-react", { runtime: "automatic" }],
   ],
 };
+
+module.exports = function (api) {
+  return {
+    plugins: ['macros'],
+  }
+}
+
